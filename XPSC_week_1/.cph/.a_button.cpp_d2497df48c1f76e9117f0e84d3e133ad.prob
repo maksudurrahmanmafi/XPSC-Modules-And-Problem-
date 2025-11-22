@@ -1,0 +1,1 @@
+{"name":"Local: a_button","url":"/Users/TBC/Desktop/XPSC_week_1/a_button.cpp","tests":[{"id":1759691970067,"input":"5 3","output":""},{"id":1759691979734,"input":"3 4","output":""},{"id":1759692008611,"input":"6 6","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/TBC/Desktop/XPSC_week_1/a_button.cpp","group":"local","local":true}

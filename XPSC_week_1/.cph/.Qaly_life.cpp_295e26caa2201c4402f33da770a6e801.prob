@@ -1,0 +1,1 @@
+{"name":"Local: Qaly_life","url":"/Users/TBC/Desktop/XPSC_week_1/Qaly_life.cpp","tests":[{"id":1759701012218,"input":"5\n1.0 12.0\n0.7 5.2\n0.9 10.7\n0.5 20.4\n0.2 30.0\n","output":"41.470\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/TBC/Desktop/XPSC_week_1/Qaly_life.cpp","group":"local","local":true}
