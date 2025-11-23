@@ -5,10 +5,9 @@ using namespace std;
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
-    int a;
-    cin>>a;
-    // int ans =(a<<1);//1 ghor left shift
-    int ans = (a<<2);//2 ghor left shift
+    int n;
+    cin>>n;
+    int ans =(1<<n);
     cout<<ans;
     return 0;
 }

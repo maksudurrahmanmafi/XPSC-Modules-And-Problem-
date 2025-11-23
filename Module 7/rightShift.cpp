@@ -7,8 +7,8 @@ int main() {
     cin.tie(NULL);
     int a;
     cin>>a;
-    // int ans =(a<<1);//1 ghor left shift
-    int ans = (a<<2);//2 ghor left shift
+    // int ans= (a>>1);//1 ghor right shift
+    int ans =(a>>2);
     cout<<ans;
     return 0;
 }
