@@ -1,0 +1,1 @@
+{"name":"Local: trunOfKthbit","url":"/Users/TBC/Desktop/xpsc_modules/Module 7/trunOfKthbit.cpp","tests":[{"id":1763914772520,"input":"45 3","output":"37"},{"id":1763914788721,"input":"10 3","output":"2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/TBC/Desktop/xpsc_modules/Module 7/trunOfKthbit.cpp","group":"local","local":true}

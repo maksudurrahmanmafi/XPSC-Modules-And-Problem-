@@ -1,0 +1,1 @@
+{"name":"Local: trun_on_kth_bit","url":"/Users/TBC/Desktop/xpsc_modules/Module 7/trun_on_kth_bit.cpp","tests":[{"id":1763913218732,"input":"45 4","output":"61"},{"id":1763913231945,"input":"10 4","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/TBC/Desktop/xpsc_modules/Module 7/trun_on_kth_bit.cpp","group":"local","local":true}
