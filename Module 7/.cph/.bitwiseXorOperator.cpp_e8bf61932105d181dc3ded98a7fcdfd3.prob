@@ -1,0 +1,1 @@
+{"name":"Local: bitwiseXorOperator","url":"/Users/TBC/Desktop/xpsc_modules/Module 7/bitwiseXorOperator.cpp","tests":[{"id":1763885680011,"input":"5 6 7","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/TBC/Desktop/xpsc_modules/Module 7/bitwiseXorOperator.cpp","group":"local","local":true}
