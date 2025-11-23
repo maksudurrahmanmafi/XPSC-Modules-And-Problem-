@@ -1,0 +1,1 @@
+{"name":"Local: toggleKthbit","url":"/Users/TBC/Desktop/xpsc_modules/Module 7/toggleKthbit.cpp","tests":[{"id":1763915279333,"input":"10 3","output":"2"},{"id":1763915290868,"input":"10 4","output":"26"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/TBC/Desktop/xpsc_modules/Module 7/toggleKthbit.cpp","group":"local","local":true}
