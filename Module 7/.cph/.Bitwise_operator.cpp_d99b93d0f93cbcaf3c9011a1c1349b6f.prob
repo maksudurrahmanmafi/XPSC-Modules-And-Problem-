@@ -1,0 +1,1 @@
+{"name":"Local: Bitwise_operator","url":"/Users/TBC/Desktop/xpsc_modules/Module 7/Bitwise_operator.cpp","tests":[{"id":1763883742189,"input":"5 4","output":"4"},{"id":1763883755232,"input":"23 34","output":"2\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/TBC/Desktop/xpsc_modules/Module 7/Bitwise_operator.cpp","group":"local","local":true}
