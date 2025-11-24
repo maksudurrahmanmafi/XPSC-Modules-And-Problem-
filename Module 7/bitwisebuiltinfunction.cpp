@@ -18,6 +18,6 @@ int main() {
     cout<<__builtin_ctzll(n)<<'\n';//LSB thake triling zero count kore
     cout<<__builtin_clz(n)<<'\n';//MSB thake zero count kore 
     cout<<__builtin_ffs(n)<<'\n';//LSB thake 1st 1 ar position
-    cout<<__builtin_parity(n);
+    cout<<__builtin_parity(n);// even 1 hoile ans 0 odd 1 hoile ans 1
     return 0;
 }

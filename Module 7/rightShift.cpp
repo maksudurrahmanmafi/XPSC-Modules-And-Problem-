@@ -8,7 +8,7 @@ int main() {
     int a;
     cin>>a;
     // int ans= (a>>1);//1 ghor right shift
-    int ans =(a>>2);
+    int ans =(a>>2);//2 ghor right shift
     cout<<ans;
     return 0;
 }
