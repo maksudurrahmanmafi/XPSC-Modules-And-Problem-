@@ -34,3 +34,70 @@ int main()
     }
     return 0;
 }
+
+// #include <bits/stdc++.h>
+// using namespace std;
+// int binaryToDecimal(string binary)
+// {
+//     int decimal = 0;
+//     int length = binary.length();
+
+//     for (int i = 0; i < length; i++)
+//     {
+//         if (binary[i] == '1')
+//         {
+//             decimal += pow(2, length - 1 - i);
+//         }
+//     }
+
+//     return decimal;
+// }
+// int main()
+// {
+//     int t;
+//     cin >> t;
+//     while (t--)
+//     {
+//         int n;
+//         cin >> n;
+//         int count = 0;
+//         int temp = n;
+//         while (temp > 0)
+//         {
+//             if (temp % 2 == 1)
+//                 count++;
+//             temp /= 2;
+//         }
+//         string binary(count,'1');
+//         int result = binaryToDecimal(binary);
+//         cout << result << endl;
+        
+//     }
+//     return 0;
+// }
+
+// #include <bits/stdc++.h>
+// using namespace std;
+ 
+// int main()
+// {
+//     ios::sync_with_stdio(false);
+//     cin.tie(nullptr);
+ 
+//     int K, S;
+//     cin >> K >> S;
+ 
+//     long long ans = 0;
+//     for (int x = 0; x <= K; x++)
+//     {
+//         for (int y = 0; y <= K; y++)
+//         {
+//             int z = S - x - y;
+//             if (0 <= z && z <= K)
+//                 ans++;
+//         }
+//     }
+ 
+//     cout << ans << "\n";
+//     return 0;
+// }
