@@ -77,38 +77,3 @@
 //     }
 //     return 0;
 // }
-#include <bits/stdc++.h>
-using namespace std;
-#define ll long long
-
-int main(){
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-
-    int t;
-    cin >> t;
-    while(t--){
-        int n, q;
-        cin >> n >> q;
-        vector<ll> v(n), pre(n+1, 0);
-
-        for(int i=0;i<n;i++) cin >> v[i];
-        sort(v.begin(), v.end());
-
-        for(int i=0;i<n;i++) pre[i+1] = pre[i] + v[i];
-
-        while(q--){
-            ll x;
-            cin >> x;
-            int l = 0, r = n-1;
-            while(l <= r){
-                int mid = (l+r)/2;
-                if(v[mid] > x) r = mid-1;
-                else l = mid+1;
-            }
-            cout << pre[l] << ' ';
-        }
-        cout << '\n';
-    }
-    return 0;
-}
