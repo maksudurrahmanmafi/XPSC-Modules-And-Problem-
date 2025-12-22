@@ -24,8 +24,10 @@ int main()
                 ans = max(ans, x * y);
             }
         }
-        if(ans==INT_MIN)cout<<"no tablet\n";
-        else cout<<ans<<'\n';
+        if (ans == INT_MIN)
+            cout << "no tablet\n";
+        else
+            cout << ans << '\n';
     }
     return 0;
 }

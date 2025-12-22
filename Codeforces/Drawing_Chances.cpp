@@ -14,19 +14,17 @@ int main()
         cin >> n >> m;
         string s;
         cin >> s;
+        int one = count(s.begin(), s.end(), '1');
+            int zero = count(s.begin(), s.end(), '0');
         if (n % 2 != 0)
             cout << "No\n";
         else
         {
-            int one = count(s.begin(), s.end(), '1');
-            int zero = count(s.begin(), s.end(), '0');
-            int remain = n - m;
-            if (one > zero && (zero + remain) == one)
+            
+            int remain = n /2;
+            if (one <= remain && zero <= remain)
                 cout << "Yes\n";
-            else if (one < zero && (one + remain) == zero)
-                cout << "Yes\n";
-            else if (one == zero && remain % 2 == 0)
-                cout << "Yes\n";
+           
             else
                 cout << "No\n";
         }

@@ -1,4 +1,3 @@
-
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long int
@@ -9,13 +8,10 @@ int main() {
     int t;
     cin>>t;
     while(t--){
-     double n;
-     cin>>n;
-     int mx =ceil(n/2);
-     int mn = ceil(n/3);
-
-     cout<<mx<<' '<<mn<<'\n';
+     string s;
+     cin>>s;
+     int cnt = count(s.begin(),s.end(),'1');
+     cout<<cnt <<'\n';
     }
     return 0;
 }
-
