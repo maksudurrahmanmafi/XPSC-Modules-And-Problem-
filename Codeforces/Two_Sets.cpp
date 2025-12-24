@@ -7,15 +7,15 @@ int main() {
     cin.tie(NULL);
     ll n;
     cin>>n;
-    int total =n*(n+1)/2;
+    ll total =n*(n+1)/2;
     if(total%2!=0){
         cout<<"NO"<<'\n';
         return 0;
     }
     cout<<"YES\n";
-    vector<int>a,b;
-    int target = total/2;
-    for(int i =n;i>=1;i--){
+    vector<ll>a,b;
+    ll target = total/2;
+    for(ll i =n;i>=1;i--){
         if(i<=target){
             a.push_back(i);
             target-=i;
