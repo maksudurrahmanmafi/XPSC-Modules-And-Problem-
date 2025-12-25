@@ -1,0 +1,1 @@
+{"name":"Local: primeSum","url":"/Users/TBC/Desktop/xpsc_modules/Codeforces/primeSum.cpp","tests":[{"id":1766659249673,"input":"2\n2\n1 1\n3\n2 1 3","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/TBC/Desktop/xpsc_modules/Codeforces/primeSum.cpp","group":"local","local":true}
