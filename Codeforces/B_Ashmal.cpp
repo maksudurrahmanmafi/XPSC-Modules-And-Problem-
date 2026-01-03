@@ -10,14 +10,14 @@ void solve() {
         cin >> a[i];
     }
 
-    // শুরুতে s খালি থাকে, তাই প্রথম স্ট্রিংটিই s হবে
+   
     string s = a[0];
 
     for (int i = 1; i < n; i++) {
         string front = a[i] + s;
         string back = s + a[i];
 
-        // যেটি ছোট সেটি গ্রহণ করা
+      
         if (front < back) {
             s = front;
         } else {
@@ -33,7 +33,7 @@ int main() {
     cin.tie(NULL);
     
     int t;
-    // যদি মাল্টিপল টেস্ট কেস থাকে
+   
     if (!(cin >> t)) return 0; 
     while (t--) {
         solve();
